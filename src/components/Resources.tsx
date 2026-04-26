@@ -5,14 +5,9 @@ const resources = [
     body: "The national SGI-USA website — introductions to Buddhism, study materials, news, and the member portal.",
   },
   {
-    title: "World Tribune",
+    title: "World Tribune & Living Buddhism",
     href: "https://www.worldtribune.org/",
-    body: "SGI-USA’s weekly publication: members’ experiences, study, and President Ikeda’s ongoing guidance.",
-  },
-  {
-    title: "Living Buddhism",
-    href: "https://www.worldtribune.org/category/living-buddhism/",
-    body: "The monthly study journal — in-depth lectures on the writings of Nichiren Daishonin and Buddhist principles.",
+    body: "SGI-USA’s weekly newspaper and monthly study journal — members’ experiences, study, and in-depth lectures on the writings of Nichiren Daishonin.",
   },
   {
     title: "The Basics of Nichiren Buddhism",
