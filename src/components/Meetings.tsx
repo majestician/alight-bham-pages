@@ -1,14 +1,14 @@
 const meetings = [
   {
     title: "District Discussion Meeting",
-    when: "Monthly · [TBD — date & time]",
-    where: "[TBD — Birmingham, AL location]",
+    when: "Monthly - typically the third Sunday at 11 am",
+    where: "Member's house in Tuscaloosa",
     body: "Our central monthly gathering. We chant together, share encouraging experiences from daily life, and discuss a guidance or study theme. Newcomers especially welcome.",
   },
   {
     title: "Study Meeting",
-    when: "Monthly · [TBD — date & time]",
-    where: "[TBD — host home or community space]",
+    when: "Monthly - typically the third Sunday at 11 am",
+    where: "Zoom",
     body: "A relaxed group study based on the writings of Nichiren Daishonin and SGI-USA publications such as the World Tribune and Living Buddhism.",
   },
   {
