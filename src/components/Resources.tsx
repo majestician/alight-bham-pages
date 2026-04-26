@@ -14,6 +14,11 @@ const resources = [
     href: "https://www.sgi-usa.org/basics-of-our-practice/",
     body: "An accessible introduction to Buddhism for daily life, the chant, and SGI’s humanistic philosophy.",
   },
+  {
+    title: "Buddhability",
+    href: "https://buddhability.org/",
+    body: "A podcast and online community exploring how Buddhist practice can unlock your potential to live a happier, more empowered life.",
+  },
 ];
 
 export const Resources = () => {
