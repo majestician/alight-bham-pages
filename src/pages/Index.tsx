@@ -44,7 +44,7 @@ const Index = () => {
       "@type": "ReligiousOrganization",
       name: "SGI-USA Birmingham West District",
       description,
-      areaServed: "Birmingham, Alabama",
+      areaServed: "Birmingham and Tuscaloosa, Alabama",
       parentOrganization: {
         "@type": "ReligiousOrganization",
         name: "Soka Gakkai International-USA",
