@@ -2,7 +2,7 @@ const meetings = [
   {
     title: "District Discussion Meeting",
     when: "Monthly - typically the third Sunday at 11 am",
-    where: "Member's house in Tuscaloosa",
+    where: "Host home in Tuscaloosa",
     body: "Our central monthly gathering. We chant together, share encouraging experiences from daily life, and discuss a guidance or study theme. Newcomers especially welcome.",
   },
   {
