@@ -16,7 +16,7 @@ const resources = [
   },
   {
     title: "The Basics of Nichiren Buddhism",
-    href: "https://www.sgi-usa.org/buddhism-for-daily-life/",
+    href: "https://www.sgi-usa.org/basics-of-our-practice/",
     body: "An accessible introduction to Buddhism for daily life, the chant, and SGI’s humanistic philosophy.",
   },
 ];
