@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 
 export const Contact = () => {
@@ -20,9 +21,9 @@ export const Contact = () => {
 
             <div className="mt-10">
               <Button asChild variant="amber" size="lg">
-                <a href="mailto:birminghamwest.sgi@example.com?subject=Hello%20from%20a%20guest">
+                <Link to="/contact">
                   Email the District
-                </a>
+                </Link>
               </Button>
             </div>
           </div>
