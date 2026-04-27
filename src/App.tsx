@@ -9,12 +9,29 @@ import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
 
+const getRouterBasename = () => {
+  const viteBase = import.meta.env.BASE_URL;
+
+  if (viteBase && viteBase !== "/") {
+    return viteBase.replace(/\/$/, "");
+  }
+
+  if (typeof window !== "undefined" && window.location.hostname.endsWith("github.io")) {
+    const [repoName] = window.location.pathname.split("/").filter(Boolean);
+    return repoName ? `/${repoName}` : "/";
+  }
+
+  return "/";
+};
+
+const routerBasename = getRouterBasename();
+
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <BrowserRouter basename={routerBasename}>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/contact" element={<ContactUs />} />
