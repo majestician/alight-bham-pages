@@ -30,7 +30,7 @@ export const SiteHeader = () => {
       )}
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 h-20 flex items-center justify-between">
-        <a href="#top" className="flex items-baseline gap-2 group">
+        <a href="/" className="flex items-baseline gap-2 group">
           <span className="font-serif text-lg text-primary tracking-tight">
             SGI-USA
           </span>
