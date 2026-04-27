@@ -16,6 +16,7 @@ const ContactUs = () => {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     document.title = "Contact Us | SGI-USA Birmingham West District";
 
     const setMeta = (name: string, content: string) => {
