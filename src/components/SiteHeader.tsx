@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 
 const links = [
-  { href: "#about", label: "About" },
-  { href: "#practice", label: "Practice" },
-  { href: "#meetings", label: "Meetings" },
-  { href: "#resources", label: "Resources" },
-  { href: "#contact", label: "Contact" },
+  { href: "/#about", label: "About" },
+  { href: "/#practice", label: "Practice" },
+  { href: "/#meetings", label: "Meetings" },
+  { href: "/#resources", label: "Resources" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 export const SiteHeader = () => {
