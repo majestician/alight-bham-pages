@@ -1,6 +1,7 @@
 # SGI-USA Birmingham West District
 
 A static website for the SGI-USA Birmingham West District in Alabama.
+<!-- redeploy: trigger GitHub Pages build with basename fix -->
 
 Built with React + Vite + Tailwind, designed to be hosted as a free static site on **GitHub Pages**.
 
