@@ -1,6 +1,3 @@
-import { Link } from "react-router-dom";
-import { Button } from "@/components/ui/button";
-
 export const Contact = () => {
   return (
     <section id="contact" className="border-t border-border">
@@ -18,14 +15,6 @@ export const Contact = () => {
               community, or you’ve practiced for years and just moved to the
               Birmingham area — we’d love to hear from you.
             </p>
-
-            <div className="mt-10">
-              <Button asChild variant="amber" size="lg">
-                <Link to="/contact">
-                  Email the District
-                </Link>
-              </Button>
-            </div>
           </div>
 
           <div className="lg:col-span-5 lg:col-start-8 bg-surface p-8 md:p-10 rounded-sm shadow-soft">
@@ -38,7 +27,12 @@ export const Contact = () => {
                   Email
                 </dt>
                 <dd className="text-foreground">
-                  [TBD — district contact email]
+                  <a
+                    href="mailto:soka.in.wob@gmail.com"
+                    className="text-primary underline underline-offset-4 decoration-accent/50 hover:decoration-accent"
+                  >
+                    soka.in.wob@gmail.com
+                  </a>
                 </dd>
               </div>
               <div>
@@ -46,15 +40,15 @@ export const Contact = () => {
                   Area
                 </dt>
                 <dd className="text-foreground">
-                  West Birmingham, Alabama
+                  West of Birmingham, Alabama
                 </dd>
               </div>
               <div>
                 <dt className="text-accent uppercase tracking-widest text-[10px] font-medium mb-1">
-                  Region
+                  Chapter
                 </dt>
                 <dd className="text-foreground">
-                  SGI-USA Alabama Region · Southeast Zone
+                  Central chapter
                 </dd>
               </div>
               <div>
