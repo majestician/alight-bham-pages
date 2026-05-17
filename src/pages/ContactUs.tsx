@@ -47,7 +47,7 @@ const ContactUs = () => {
       message,
     ].filter(Boolean);
     const body = encodeURIComponent(bodyLines.join("\n"));
-    window.location.href = `mailto:birminghamwest.sgi@example.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:soka.in.wob@gmail.com?subject=${subject}&body=${body}`;
     toast({
       title: "Opening your email app",
       description: "Your message is ready to send.",
