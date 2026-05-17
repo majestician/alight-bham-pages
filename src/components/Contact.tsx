@@ -40,7 +40,7 @@ export const Contact = () => {
                   Area
                 </dt>
                 <dd className="text-foreground">
-                  West of Birmingham, Alabama
+                  West of Birmingham (including, e.g., Hoover, Bessemer, Tuscaloosa, Marion)
                 </dd>
               </div>
               <div>

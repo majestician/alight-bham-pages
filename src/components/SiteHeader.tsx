@@ -7,7 +7,6 @@ const links = [
   { hash: "practice", label: "Practice" },
   { hash: "meetings", label: "Meetings" },
   { hash: "resources", label: "Resources" },
-  { hash: "contact", label: "Contact" },
 ];
 
 export const SiteHeader = () => {
