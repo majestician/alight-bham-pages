@@ -19,7 +19,7 @@ export const Footer = () => {
           <a href="/#about" className="hover:text-accent transition-colors">About</a>
           <a href="/#practice" className="hover:text-accent transition-colors">Practice</a>
           <a href="/#meetings" className="hover:text-accent transition-colors">Meetings</a>
-          <a href="/contact" className="hover:text-accent transition-colors">Contact</a>
+          <a href="/#contact" className="hover:text-accent transition-colors">Contact</a>
         </div>
 
         <div className="md:col-span-4 flex flex-col gap-2 text-sm">
