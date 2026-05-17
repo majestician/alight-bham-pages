@@ -16,10 +16,10 @@ export const Footer = () => {
           <p className="text-xs uppercase tracking-widest text-primary-foreground/50 mb-2">
             Explore
           </p>
-          <a href="/#about" className="hover:text-accent transition-colors">About</a>
-          <a href="/#practice" className="hover:text-accent transition-colors">Practice</a>
-          <a href="/#meetings" className="hover:text-accent transition-colors">Meetings</a>
-          <a href="/#resources" className="hover:text-accent transition-colors">Resources</a>
+          <a href="#about" className="hover:text-accent transition-colors">About</a>
+          <a href="#practice" className="hover:text-accent transition-colors">Practice</a>
+          <a href="#meetings" className="hover:text-accent transition-colors">Meetings</a>
+          <a href="#resources" className="hover:text-accent transition-colors">Resources</a>
         </div>
 
         <div className="md:col-span-4 flex flex-col gap-2 text-sm">
